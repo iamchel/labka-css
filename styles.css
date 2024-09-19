@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .main, .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header {
+    height: 30vh;
+    background-color: #f8b400;
+    justify-content: flex-start; /* горизонтально зліва */
+    padding-left: 20px;
+}
+
+.main {
+    height: 40vh;
+    background-color: #4caf50;
+    justify-content: center; /* по центру */
+}
+
+.footer {
+    height: 30vh;
+    background-color: #2196f3;
+    justify-content: flex-end; /* горизонтально праворуч */
+    padding-right: 20px;
+}
+
+.text {
+    font-size: 24px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
